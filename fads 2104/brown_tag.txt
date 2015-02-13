@@ -1,0 +1,57 @@
+\subsection{Exploring the tag set (5 points)}
+There are 265 distinct words in the Brown Corpus having exactly four possible tags (assuming nothing is done to normalize the word forms).
+\begin{enumerate}
+\item Create a table with the integers 1\dots 10 in one column, and the number of distinct
+words in the corpus having $\{1, \dots, 10\}$ distinct tags.
+
+\begin{center}
+\begin{tabular}{l|r}
+\hline
+Number of Tags & Number of Distinct Words \\
+\hline
+1 & 47328\\
+\hline
+2 & 7186\\
+\hline
+3 & 1146\\
+\hline
+4 & 265\\
+\hline
+5 & 87\\
+\hline
+6 & 27\\
+\hline
+7 & 12\\
+\hline
+8 & 1\\
+\hline
+9 & 1\\
+\hline
+10 & 2\\
+\hline
+\end{tabular}
+\end{center}
+
+
+\item For the word with the greatest number of distinct tags, print out sentences from
+the corpus containing the word, one for each possible tag.
+
+The word with the greatest number of distinct tags is 'that' with 12 distinct tags.
+\\The following are the 12 distinct tags with an example sentence with that tag, one for each possible tag of 'that':
+\begin{enumerate}
+\item CS-NC: ('When', 'WRB'), ('I', 'PPSS-NC'), ('have', 'HV-NC'), ('instructions', 'NNS-NC'), ('to', 'TO-NC'), ('leave', 'VB-NC'), ('is', 'BEZ'), ('equivalent', 'JJ'), ('in', 'IN'), ('meaning', 'NN'), ('to', 'IN'), ('I', 'PPSS-NC'), ('have', 'HV-NC'), ('instructions', 'NNS-NC'), ('that', 'CS-NC'), ('I', 'PPSS-NC'), ('am', 'BEM-NC'), ('to', 'TO-NC'), ('leave', 'VB-NC'), ('this', 'DT-NC'), ('place', 'NN-NC'), (',', ','), ('dominant', 'JJ'), ('stress', 'NN'), ('is', 'BEZ'), ('ordinarily', 'RB'), ('on', 'IN'), ('leave', 'VB-NC'), ('.', '.')
+\item DT-NC: ('Thus', 'RB'), ('to', 'IN-NC'), ('has', 'HVZ'), ('light', 'JJ'), ('stress', 'NN'), ('both', 'ABX'), ('in', 'IN'), ('that', 'DT-NC'), ('was', 'BEDZ-NC'), ('the', 'AT-NC'), ('conclusion', 'NN-NC'), ('that', 'WPO-NC'), ('I', 'PPSS-NC'), ('came', 'VBD-NC'), ('to', 'IN-NC'), ('and', 'CC'), ('in', 'IN'), ('that', 'DT-NC'), ('was', 'BEDZ-NC'), ('the', 'AT-NC'), ('conclusion', 'NN-NC'), ('I', 'PPSS-NC'), ('came', 'VBD-NC'), ('to', 'IN-NC'), ('.', '.')
+\item NIL: ('Thus', 'NIL'), (',', ','), ('as', 'NIL'), ('a', 'NIL'), ('development', 'NIL'), ('program', 'NIL'), ('is', 'NIL'), ('being', 'NIL'), ('launched', 'NIL'), (',', ','), ('commitments', 'NIL'), ('and', 'NIL'), ('obligations', 'NIL'), ('must', 'NIL'), ('be', 'NIL'), ('entered', 'NIL'), ('into', 'NIL'), ('in', 'NIL'), ('a', 'NIL'), ('given', 'NIL'), ('year', 'NIL'), ('which', 'NIL'), ('may', 'NIL'), ('exceed', 'NIL'), ('by', 'NIL'), ('twofold', 'NIL'), ('or', 'NIL'), ('threefold', 'NIL'), ('the', 'NIL'), ('expenditures', 'NIL'), ('to', 'NIL'), ('be', 'NIL'), ('made', 'NIL'), ('in', 'NIL'), ('that', 'NIL'), ('year', 'NIL'), ('.', '.')
+\item WPS-NC: ('But', 'CC'), ('when', 'WRB'), ('to', 'TO-NC'), ('represents', 'VBZ'), ('to', 'IN-NC'), ('consciousness', 'NN-NC'), ('in', 'IN'), ('that', 'WPS-NC'), ('was', 'BEDZ-NC'), ('the', 'AT-NC'), ('moment', 'NN-NC'), ('that', 'CS-NC'), ('I', 'PPSS-NC'), ('came', 'VBD-NC'), ('to', 'IN-NC'), (',', ','), ('and', 'CC'), ('similarly', 'RB'), ('in', 'IN'), ('that', 'WPS-NC'), ('was', 'BEDZ-NC'), ('the', 'AT-NC'), ('moment', 'NN-NC'), ('I', 'PPSS-NC'), ('came', 'VBD-NC'), ('to', 'IN-NC'), (',', ','), ('there', 'EX'), ('is', 'BEZ'), ('much', 'QL'), ('stronger', 'JJR'), ('stress', 'NN'), ('on', 'IN'), ('to', 'IN-NC'), ('.', '.')
+\item CS-HL: ('According', 'IN'), ('to', 'IN'), ('the', 'AT'), ('official', 'JJ'), ('interpretation', 'NN'), ('of', 'IN'), ('the', 'AT'), ('Charter', 'NN-TL'), (',', ','), ('a', 'AT'), ('member', 'NN'), ('cannot', 'MD*'), ('be', 'BE'), ('penalized', 'VBN'), ('by', 'IN'), ('not', '*'), ('having', 'HVG'), ('the', 'AT'), ('right', 'NN'), ('to', 'TO'), ('vote', 'VB'), ('in', 'IN'), ('the', 'AT'), ('General', 'JJ-TL'), ('Assembly', 'NN-TL'), ('for', 'IN'), ('nonpayment', 'NN'), ('of', 'IN'), ('financial', 'JJ'), ('obligations', 'NNS'), ('to', 'IN'), ('the', 'AT'), ('``', '``'), ('special', 'JJ'), ("''", "''"), ('United', 'VBN-TL'), ("Nations'", 'NNS\$-TL'), ('budgets', 'NNS'), (',', ','), ('and', 'CC'), ('of', 'IN'), ('course', 'NN'), ('cannot', 'MD*'), ('be', 'BE'), ('expelled', 'VBN'), ('from', 'IN'), ('the', 'AT'), ('Organization', 'NN-TL'), ('(', '('), ('which', 'WDT'), ('you', 'PPSS'), ('suggested', 'VBD'), ('in', 'IN'), ('your', 'PP\$'), ('editorial', 'NN'), (')', ')'), (',', ','), ('due', 'RB'), ('to', 'IN-HL'), ('the', 'AT-HL'), ('fact', 'NN-HL'), ('that', 'CS-HL'), ('there', 'EX'), ('is', 'BEZ'), ('no', 'AT'), ('provision', 'NN'), ('in', 'IN'), ('the', 'AT'), ('Charter', 'NN-TL'), ('for', 'IN'), ('expulsion', 'NN'), ('.', '.')
+\item WPO-NC: ('Thus', 'RB'), ('to', 'IN-NC'), ('has', 'HVZ'), ('light', 'JJ'), ('stress', 'NN'), ('both', 'ABX'), ('in', 'IN'), ('that', 'DT-NC'), ('was', 'BEDZ-NC'), ('the', 'AT-NC'), ('conclusion', 'NN-NC'), ('that', 'WPO-NC'), ('I', 'PPSS-NC'), ('came', 'VBD-NC'), ('to', 'IN-NC'), ('and', 'CC'), ('in', 'IN'), ('that', 'DT-NC'), ('was', 'BEDZ-NC'), ('the', 'AT-NC'), ('conclusion', 'NN-NC'), ('I', 'PPSS-NC'), ('came', 'VBD-NC'), ('to', 'IN-NC'), ('.', '.')
+\item WPS: ('She', 'PPS'), ('was', 'BEDZ'), ('a', 'AT'), ('living', 'VBG'), ('doll', 'NN'), ('and', 'CC'), ('no', 'AT'), ('mistake', 'NN'), ('--', '--'), ('the', 'AT'), ('blue-black', 'JJ'), ('bang', 'NN'), (',', ','), ('the', 'AT'), ('wide', 'JJ'), ('cheekbones', 'NNS'), (',', ','), ('olive-flushed', 'JJ'), (',', ','), ('that', 'WPS'), ('betrayed', 'VBD'), ('the', 'AT'), ('Cherokee', 'NP'), ('strain', 'NN'), ('in', 'IN'), ('her', 'PP\$'), ('Midwestern', 'JJ-TL'), ('lineage', 'NN'), (',', ','), ('and', 'CC'), ('the', 'AT'), ('mouth', 'NN'), ('whose', 'WP\$'), ('only', 'AP'), ('fault', 'NN'), (',', ','), ('in', 'IN'), ('the', 'AT'), ("novelist's", 'NN\$'), ('carping', 'VBG'), ('phrase', 'NN'), (',', ','), ('was', 'BEDZ'), ('that', 'CS'), ('the', 'AT'), ('lower', 'JJR'), ('lip', 'NN'), ('was', 'BEDZ'), ('a', 'AT'), ('trifle', 'NN'), ('too', 'QL'), ('voluptuous', 'JJ'), ('.', '.')
+\item WPS-HL: ('Withholding', 'VBG-HL'), ('of', 'IN-HL'), ('funds', 'NNS-HL'), ('to', 'IN-HL'), ('schools', 'NNS-HL'), ('that', 'WPS-HL'), ('deny', 'VB-HL'), ('children', 'NNS-HL'), ('on', 'IN-HL'), ('account', 'NN-HL'), ('of', 'IN-HL'), ('race', 'NN-HL'), ('.', '.-HL')
+\item WPO: ('It', 'PPS'), ('was', 'BEDZ'), ('nothing', 'PN'), ('that', 'WPO'), ('he', 'PPS'), ('said', 'VBD'), ('or', 'CC'), ('did', 'DOD'), (',', ','), ('but', 'CC'), ('it', 'PPS'), ('seemed', 'VBD'), ('so', 'QL'), ('natural', 'JJ'), ('to', 'IN'), ('her', 'PPO'), ('that', 'CS'), ('she', 'PPS'), ('should', 'MD'), ('be', 'BE'), ('working', 'VBG'), ('for', 'IN'), ('him', 'PPO'), (',', ','), ('looking', 'VBG'), ('forward', 'RB'), ('to', 'IN'), ('his', 'PP\$'), ('eventual', 'JJ'), ('proposal', 'NN'), ('.', '.')
+\item CS: ('She', 'PPS'), ('was', 'BEDZ'), ('a', 'AT'), ('living', 'VBG'), ('doll', 'NN'), ('and', 'CC'), ('no', 'AT'), ('mistake', 'NN'), ('--', '--'), ('the', 'AT'), ('blue-black', 'JJ'), ('bang', 'NN'), (',', ','), ('the', 'AT'), ('wide', 'JJ'), ('cheekbones', 'NNS'), (',', ','), ('olive-flushed', 'JJ'), (',', ','), ('that', 'WPS'), ('betrayed', 'VBD'), ('the', 'AT'), ('Cherokee', 'NP'), ('strain', 'NN'), ('in', 'IN'), ('her', 'PP\$'), ('Midwestern', 'JJ-TL'), ('lineage', 'NN'), (',', ','), ('and', 'CC'), ('the', 'AT'), ('mouth', 'NN'), ('whose', 'WP\$'), ('only', 'AP'), ('fault', 'NN'), (',', ','), ('in', 'IN'), ('the', 'AT'), ("novelist's", 'NN\$'), ('carping', 'VBG'), ('phrase', 'NN'), (',', ','), ('was', 'BEDZ'), ('that', 'CS'), ('the', 'AT'), ('lower', 'JJR'), ('lip', 'NN'), ('was', 'BEDZ'), ('a', 'AT'), ('trifle', 'NN'), ('too', 'QL'), ('voluptuous', 'JJ'), ('.', '.')
+\item DT: ('``', '``'), ('See', 'VB'), ('that', 'DT'), ('guy', 'NN'), ("''", "''"), ('?', '.'), ('?', '.')
+\item QL: ('Then', 'RB'), (',', ','), ('she', 'PPS'), ('was', 'BEDZ'), ('back', 'RB'), ('on', 'IN'), ('her', 'PP\$'), ('feet', 'NNS'), (',', ','), ('winking', 'VBG'), ('and', 'CC'), ('smiling', 'VBG'), ('that', 'QL'), ('enormous', 'JJ'), ('smile', 'NN'), ('(', '('), ('she', 'PPS'), ('had', 'HVD'), ('lots', 'NNS'), ('of', 'IN'), ('wonderful', 'JJ'), ('big', 'JJ'), ('teeth', 'NNS'), ('that', 'CS'), ('you', 'PPSS'), ('never', 'RB'), ('would', 'MD'), ('have', 'HV'), ('suspected', 'VBN'), ('she', 'PPS'), ('had', 'HVD'), ('when', 'WRB'), ('she', 'PPS'), ('was', 'BEDZ'), ('not', '*'), ('smiling', 'VBG'), (')', ')'), ('.', '.')
+\end{enumerate}
+
+
+\end{enumerate}
